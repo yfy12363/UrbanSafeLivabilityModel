@@ -1,0 +1,50 @@
+<context id="UrbanSafeLivabilityModel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
+  	<projection id="space" type="continuous space" />
+
+	<projection id="grid" type="grid" />
+
+
+	<projection id="trafficSafety" type="value layer" />
+
+	<projection id="livingSafety" type="value layer" />
+
+	<projection id="emergencySafety" type="value layer" />
+
+	<projection id="policeSafety" type="value layer" />
+
+	<projection id="fireSafety" type="value layer" />
+
+
+	<projection id="safetyLivability" type="value layer" />
+
+	<projection id="satisfaction" type="value layer" />
+
+
+	<projection id="border" type="value layer" />
+
+	<projection id="buildingCoverage" type="value layer" />
+
+	<projection id="streetDiagram" type="value layer" />
+
+	<projection id="populationDensity" type="value layer" />
+
+	<projection id="foreignResidentRatio" type="value layer" />
+
+	<projection id="gridDiagram" type="value layer" />
+
+
+
+	<projection id="gridAverageSatisfaction" type="value layer" />
+
+	<projection id="streetAverageSatisfaction" type="value layer" />
+
+
+	<projection id="gridAverageLivability" type="value layer" />
+
+	<projection id="streetAverageLivability" type="value layer" />
+
+
+	<projection id="gridAveragePopulationDensity" type="value layer" />
+
+	<projection id="streetAveragePopulationDensity" type="value layer" />
+</context>
